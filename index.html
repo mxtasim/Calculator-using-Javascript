@@ -1,0 +1,58 @@
+<!--Calculator using javascript-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="Calculator_icon.svg.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="frame">
+        <form>
+            <input type="text" class="screen">
+        </form>
+        <div class="buttons">
+            <!--Operators-->
+            <button type="button" class="btn operators" data-num="*">*</button>
+            <button type="button" class="btn operators" data-num="/">/</button>
+            <button type="button" class="btn operators" data-num="-">-</button>
+            <button type="button" class="btn operators" data-num="+">+</button>
+            <!--Numbers-->
+            <button type="button" class="btn numbers" data-num="0">0</button>
+            <button type="button" class="btn numbers" data-num="1">1</button>
+            <button type="button" class="btn numbers" data-num="2">2</button>
+            <button type="button" class="btn numbers" data-num="3">3</button>
+            <button type="button" class="btn numbers" data-num="4">4</button>
+            <button type="button" class="btn numbers" data-num="5">5</button>
+            <button type="button" class="btn numbers" data-num="6">6</button>
+            <button type="button" class="btn numbers" data-num="7">7</button>
+            <button type="button" class="btn numbers" data-num="8">8</button>
+            <button type="button" class="btn numbers" data-num="9">9</button>
+            <button type="button" class="btn numbers" data-num=".">.</button>
+            <button type="button" class="btn numbers" data-num="3.14">π</button>
+            <!--Clear-->
+            <button type="button" class="clear">CLR</button>
+            <!--Delete-->
+            <button type="button" class="delete">DEL</button>
+            <!--Equal-->
+            <button type="button" class="total">=</button>
+        </div>
+
+    </section>
+
+<footer>
+    <p class="copyright">Copyright © MTSM</p>
+    <p>github logo</p>
+</footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
